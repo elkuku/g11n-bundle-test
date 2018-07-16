@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: G11nTest \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-16 13:29-0500\n"
+"POT-Creation-Date: 2018-07-16 13:38-0500\n"
 "PO-Revision-Date: 2018-07-16 13:31-0500\n"
 "Last-Translator: Der Tester <test@test-virtualbox>\n"
 "Language-Team: Language de-DE\n"
@@ -19,3 +19,7 @@ msgstr ""
 #: /src/Controller/DefaultController.php:16
 msgid "This is a message from controller!"
 msgstr "Dies ist eine Nachricht des Controllers!"
+
+#: /templates/default/index.html.twig:20
+msgid "This is a message from Twig!"
+msgstr "Dies ist eine Nachricht von Twig!"
