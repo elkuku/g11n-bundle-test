@@ -18,4 +18,4 @@ msgstr ""
 
 #: /src/Controller/DefaultController.php:16
 msgid "This is a message from controller!"
-msgstr ""
+msgstr "Dies ist eine Nachricht des Controllers!"
