@@ -13,6 +13,7 @@ class DefaultController extends Controller
     public function index()
     {
         return $this->render('default/index.html.twig', [
+            'test_message' => g11n3t('This is a message from controller!'),
             'controller_name' => 'DefaultController',
         ]);
     }
