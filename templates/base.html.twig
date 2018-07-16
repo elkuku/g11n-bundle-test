@@ -1,3 +1,4 @@
+{% import "@ElKuKuG11n/_macro/g11n.html.twig" as g11n %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +7,10 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+
+    <div>{{ g11n.switcher(getLangs(), getCurrentLang()) }}</div>
+
+    {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
